@@ -26,7 +26,7 @@ func main() {
 		io.Copy(os.Stdout, r.Body)
 		fmt.Println()
 		fmt.Println()
-		w.Write([]byte("see console for output"))
+		w.Write([]byte("See console for output.\n"))
 	})
 	fmt.Printf("Echoing to console HTTP requests to http://%s\n", *address)
 	fmt.Println(http.ListenAndServe(*address, nil))
