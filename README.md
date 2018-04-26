@@ -4,7 +4,7 @@ Simple HTTP server that just echos everything to the console.  For debugging POS
 # Installation
 
 ```
-go install github.com/robert-wallis/http-echo
+go get -u github.com/robert-wallis/http-echo
 ```
 
 # Usage
